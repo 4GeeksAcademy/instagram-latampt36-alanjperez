@@ -13,7 +13,7 @@ body {
 header {
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin-top: 10px;
 }
 #instagram {
     display: flex;
@@ -32,8 +32,17 @@ header {
 .tarjeta-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: space-around ;
+    /*margin: 20px;*/
+}
+.titulos-header h2, h3{
+    font-size: 15px;
+    margin-right: 280px;
+}
+.tarjeta-header .fa-brands {
+    height: 50px;
+    
+   
 }
 .tarjeta-foto {
     display: flex;
@@ -65,8 +74,9 @@ header {
     margin-bottom: 15px;
 }
 .iconos-footer {
-    width: 10px;
-    height: 10px;
+    display: flex;
+    width: 30px;
+    height: 30px;
     display: flex;
     gap: 15px;
     padding: 15px;
