@@ -24,7 +24,7 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 550px;
+    height: 650px;
     width: 400px;
     background-color: aliceblue; 
     border-radius: 40px;   
@@ -33,7 +33,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 40px;
+    margin: 20px;
 }
 .tarjeta-foto {
     display: flex;
@@ -59,4 +59,15 @@ header {
 .tarjeta-footer {
     padding: 15px;
     text-align: justify;
+    gap: 15px;
+}
+.tarjeta-footer .likes-footer{
+    margin-bottom: 15px;
+}
+.iconos-footer {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
 }
