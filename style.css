@@ -18,13 +18,13 @@ header {
 #instagram {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-;
 }
 .tarjeta-instagram {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 650px;
+    height: 590px;
     width: 400px;
     background-color: aliceblue; 
     border-radius: 40px;   
@@ -33,16 +33,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around ;
-    /*margin: 20px;*/
+    cursor: pointer;
 }
 .titulos-header h2, h3{
-    font-size: 15px;
-    margin-right: 280px;
+    font-size: 12px;
+    margin-right: 230px;
 }
-.tarjeta-header .fa-brands {
-    height: 50px;
-    
-   
+.tarjeta-header {
+    height: 50px; 
+}
+.html-header {
+    margin-left: 50px;
 }
 .tarjeta-foto {
     display: flex;
@@ -55,7 +56,7 @@ header {
     border-radius: 100px;
     height: 7px;
     width: 7px;
-    padding: 5px;
+    margin-right: 40px;
 }
 .tarjeta-instagram img {
     height: 300px;
@@ -63,7 +64,7 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 .tarjeta-footer {
     padding: 15px;
@@ -80,4 +81,9 @@ header {
     display: flex;
     gap: 15px;
     padding: 15px;
+}
+ .bookmark  {
+    margin-right: auto;
+    display: flex;
+    margin-left: 251px;
 }
